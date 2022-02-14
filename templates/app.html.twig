@@ -5,7 +5,11 @@
 {% if locationEmpty %}
 <p> Something went wrong </p>
 {% else %}
-<p> {{ weather }} </p>
+	{% if weather %}
+		<p> {{ weather }} </p>
+	{% else %}
+		<p>Could not retrieve weather data</p>
+	{% endif %}
 {% endif %}
 
 {#
