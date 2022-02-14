@@ -1,4 +1,5 @@
 # Tet mājasdarbs - pamatuzdevums
+![Publiskais skats](web-app.png)
 ## Projekta uzstādīšana
 Noklonē git repozitoriju
 ```
